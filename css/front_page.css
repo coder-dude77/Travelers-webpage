@@ -1,0 +1,73 @@
+*{margin: 0px;padding: 0px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+#full_wrap{
+    width: 100%;
+    height: 625px;
+    overflow: hidden;
+}
+#right_side{
+    width: 62%;
+    height: inherit;
+    background: url(../img/traveler_pic.jpg) no-repeat;
+    background-size: auto 625px;
+    float: left;
+}
+#left_side{
+    width: 38%;
+    height: 100%;
+    background: #FFFFFF;
+    float: left;
+}
+.text_wrap{
+    width: 80%;
+    height: 262px;
+    margin: 0px auto;
+}
+.text_wrap h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 4em;
+    color: #515369;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.text_wrap p{
+    font-family: montserrat;
+    text-align: center;
+    color: #51536D;
+    line-height: 
+}
+.btn_wrap{
+    width: 47%;
+    height: 57px;
+    margin: 0px auto;
+}
+button{
+    width: 97%;
+    height: 54px;
+    padding: 11px;
+    background: #46C7B0;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    border: 3px solid #46C7B0;
+    border-radius: 27px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    border: 3px solid #515369; 
+    background: none;
+    color: #46C7B0;
+}
+.img_wrap{
+    width: 150px;
+    height: 35px;
+    margin: 20px auto;
+}
+.img_wrap img{
+    padding: 0px 6px;
+}
